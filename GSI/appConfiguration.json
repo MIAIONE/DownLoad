@@ -1,8 +1,8 @@
 {
-  "packageSourceAddress": [
-    "https://api.nuget.org/v3/index.json",
-    "https://nuget.cdn.azure.cn/v3/index.json"
-  ],
+  "packageSourceAddress": {
+    "nuget": "https://api.nuget.org/v3/index.json",
+    "azure": "https://nuget.cdn.azure.cn/v3/index.json" 
+  },
   "autoUpdate": true,
   "UpdateAddress": "https://raw.staticdn.net/MIAIONE/api/master/GSI/appConfiguration.json",
   "GSI": "GSI.MainProgram",
